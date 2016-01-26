@@ -1,5 +1,3 @@
-var url = require('url');
-
 exports.bind = function (php) {
 
     this.eventHandle.onOver = function (data) {
