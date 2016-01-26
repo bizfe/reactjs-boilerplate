@@ -3,6 +3,7 @@
 This is reactjs project boilerplate of BizFE.
 
 ### Features
+---
 Base on: Reactjs & ES6 & Babel 6 , Support [hot module replacement](https://webpack.github.io/docs/webpack-dev-middleware.html)
 
 jsx: ES6 & Class syntax
@@ -15,18 +16,21 @@ flux: redux
 
 
 ### How to use 
+---
 
-- git clone https://github.com/bizfe/reactjs-boilerplate.git
+```shell
+ git clone https://github.com/bizfe/reactjs-boilerplate.git
 
-- cd reactjs-boilerplate && npm install 
+ cd reactjs-boilerplate && npm install 
 
-- npm run dev
+ npm run dev
 
-- cd fedev, node fedev.js -a 
+ cd fedev, node fedev.js -a 
 
-- open the broswer and enjoy~
-
+ open the broswer and enjoy~
+```
 
 ### License
+---
 
 MIT
