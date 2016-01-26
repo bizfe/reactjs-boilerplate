@@ -30,6 +30,5 @@ flux: redux
 ```
 
 ### License
---
 
 MIT
