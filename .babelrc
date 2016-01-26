@@ -1,0 +1,9 @@
+//默认开启es2015, react jsx的编译  并且开启react-hwr。
+{
+	"presets": [ "es2015", "stage-0", "react"],
+	"env": {
+	  "development": {
+	  	"presets": ["react-hmre"]
+	  }
+	}
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bbox2.0</title>
+</head>
+<body>
+	<div id="reactApp">
+	</div>
+
+	<!-- 线上直接引用build好的js -->
+	<% if (!this.isDebug) {%>
+		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
+		    'reactjs-boilerplate:app/lib.bundle'
+		    ], 'js')%>
+
+		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
+		    'reactjs-boilerplate:app/bundle'
+		    ], 'js')%>
+	<%} else {%>
+		<!-- 本地使用express提供的js -->
+		<script src="http://0.0.0.0:3000/static/js/bundle.js"></script>
+	<%}%>
+	
+</body>
+</html>

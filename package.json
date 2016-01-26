@@ -1,0 +1,56 @@
+{
+  "name": "reactjs-boilerplate",
+  "version": "0.0.1",
+  "description": "reactjs & redux & react-router & es6 & hot-loader project boilerplate of bizfe",
+  "main": "App.jsx",
+  "scripts": {
+    "dev": "node devServer.js",
+    "validate": "npm ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bizfe/reactjs-boilerplate.git"
+  },
+  "keywords": [
+    "reactjs",
+    "redux",
+    "react-router",
+    "es6"
+  ],
+  "author": "bizfe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bizfe/reactjs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/bizfe/reactjs-boilerplate",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.0.1",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "express": "^4.13.4",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "json-loader": "^0.5.4",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.12",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-hot-middleware": "^2.6.3"
+  },
+  "dependencies": {
+    "history": "^1.17.0",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "react-router": "^1.0.3",
+    "redux": "^3.0.6",
+    "redux-logger": "^2.4.0",
+    "redux-thunk": "^1.0.3"
+  }
+}
