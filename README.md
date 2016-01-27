@@ -18,15 +18,15 @@ flux: redux
 ### How to use 
 
 ```shell
- git clone https://github.com/bizfe/reactjs-boilerplate.git
+ git clone https://github.com/bizfe/reactjs-boilerplate.git reactproj
 
- cd reactjs-boilerplate && npm install 
+ cd reactproj && (sudo)npm install 
 
  npm run dev
 
- cd fedev, node fedev.js -a 
+ cd fedev, node fedev.js -a (ex: kg.reactproj reactproj)
 
- open the broswer and enjoy~
+ open your broswer and enjoy~
 ```
 
 ### License

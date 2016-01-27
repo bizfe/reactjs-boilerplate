@@ -7,7 +7,7 @@ class Content extends Component {
 		let activities = this.props.activities;    	
 		return(
 			<div key='activityWrapper' className={style.wrapper} >
-				haha.  Im content...{activities.message}
+				haha.  Im content...(修改我不刷新即可更新哦~) {activities.message}
 			</div>
 			)
 	}
