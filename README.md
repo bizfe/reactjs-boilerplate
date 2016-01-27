@@ -4,7 +4,7 @@ This is reactjs project boilerplate of BizFE.
 
 ## Features
 
-**Base on:** Reactjs & Babel 6 & webpack, Support [ot module replacement](https://webpack.github.io/docs/webpack-dev-middleware.html)
+**Base on:** Reactjs & Babel 6 & webpack, Support [Hot module replacement](https://webpack.github.io/docs/webpack-dev-middleware.html)
 
 **jsx:** ES6 & Class syntax
 
