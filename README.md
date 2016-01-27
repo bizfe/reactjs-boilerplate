@@ -25,7 +25,7 @@ This is reactjs project boilerplate of BizFE.
 
  npm run dev
 
- cd fedev, node fedev.js -a (ex: kg.reactproj reactproj)
+ cd fedev, node fedev.js -a (ex: kugua.react reactproj)
 
  open http://xxxxx.com/home (hope enjoy~)
 
@@ -38,7 +38,7 @@ node fedev.js -li reactproj (deploy like other codebases)
 	
 ```
 
-build output with: 
+build with(static/): 
 - bundle.js (logic codes)
 - lib.bundle.js (common libs)
 - styles.css (components styles)
