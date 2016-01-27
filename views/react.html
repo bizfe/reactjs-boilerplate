@@ -10,11 +10,11 @@
 	<!-- 线上直接引用build好的js -->
 	<% if (!this.isDebug) {%>
 		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
-		    'reactjs-boilerplate:app/lib.bundle'
+		    'reactproj:app/lib.bundle'
 		    ], 'js')%>
 
 		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
-		    'reactjs-boilerplate:app/bundle'
+		    'reactproj:app/bundle'
 		    ], 'js')%>
 	<%} else {%>
 		<!-- 本地使用express提供的js -->
