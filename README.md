@@ -4,7 +4,7 @@ This is reactjs project boilerplate of BizFE.
 
 ## Features
 
-**Base on:** Reactjs & Babel 6 & webpack, Support [hot module replacement](https://webpack.github.io/docs/webpack-dev-middleware.html)
+**Base on:** Reactjs & Babel 6 & webpack, Support [ot module replacement](https://webpack.github.io/docs/webpack-dev-middleware.html)
 
 **jsx:** ES6 & Class syntax
 
@@ -27,20 +27,21 @@ This is reactjs project boilerplate of BizFE.
 
  cd fedev, node fedev.js -a (ex: kg.reactproj reactproj)
 
- open your broswer visit (http://xxxxx.com/home) and enjoy~
+ open http://xxxxx.com/home (hope enjoy~)
+
 ```
 #### Production
 ```
-npm run build
+npm run build (then commit the static folder)
 
 node fedev.js -li reactproj (deploy like other codebases)
 	
 ```
 
 build output with: 
-- bundle.js (your app logic codes)
+- bundle.js (logic codes)
 - lib.bundle.js (common libs)
-- styles.css (components styles file)
+- styles.css (components styles)
 
 ## License
 
