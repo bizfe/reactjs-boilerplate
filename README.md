@@ -4,15 +4,15 @@ This is reactjs project boilerplate of BizFE.
 
 ### Features
 
-Base on: Reactjs & Babel 6 & webpack, Support [hot module replacement](https://webpack.github.io/docs/webpack-dev-middleware.html)
+**Base on:** Reactjs & Babel 6 & webpack, Support [hot module replacement](https://webpack.github.io/docs/webpack-dev-middleware.html)
 
-jsx: ES6 & Class syntax
+**jsx:** ES6 & Class syntax
 
-css: less & CSS Modules
+**css:** less & CSS Modules
 
-router: react-router
+**router:** react-router
 
-flux: redux
+**flux:** redux
 
 
 ### How to use 
