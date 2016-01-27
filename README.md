@@ -27,7 +27,7 @@ This is reactjs project boilerplate of BizFE.
 
  cd fedev, node fedev.js -a (ex: kugua.react reactproj)
 
- open http://xxxxx.com/home (hope enjoy~)
+ open http://xxxxx.com/home (hope enjoy~ :smile:)
 
 ```
 #### Production
