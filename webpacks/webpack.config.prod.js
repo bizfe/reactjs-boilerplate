@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  devtool: '#source-map',
+  devtool: 'source-map',
   entry: {
     app: path.join(__dirname, '../app/App.jsx'),
     lib: ['react', 'react-dom', 'react-redux', 'react-router', 'redux', 'redux-thunk']
