@@ -2,6 +2,11 @@
 <html>
 <head>
 	<title>bbox2.0</title>
+	<% if (!this.isDebug) {%>
+		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
+		    'reactproj:styles'
+		    ], 'css')%>
+	<%}%>
 </head>
 <body>
 	<div id="reactApp">
@@ -10,11 +15,11 @@
 	<!-- 线上直接引用build好的js -->
 	<% if (!this.isDebug) {%>
 		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
-		    'reactproj:app/lib.bundle'
+		    'reactproj:lib.bundle'
 		    ], 'js')%>
 
 		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
-		    'reactproj:app/bundle'
+		    'reactproj:bundle'
 		    ], 'js')%>
 	<%} else {%>
 		<!-- 本地使用express提供的js -->
