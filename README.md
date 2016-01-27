@@ -29,7 +29,6 @@ This is reactjs project boilerplate of BizFE.
 
  open your broswer visit (http://xxxxx.com/home) and enjoy~
 ```
-
 #### Production
 ```
 npm run build
@@ -37,6 +36,11 @@ npm run build
 node fedev.js -li reactproj (deploy like other codebases)
 	
 ```
+
+build output with: 
+- bundle.js (your app logic codes)
+- lib.bundle.js (common libs)
+- styles.css (components styles file)
 
 ## License
 
