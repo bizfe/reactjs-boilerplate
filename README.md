@@ -1,4 +1,4 @@
-# react-boilerplate
+# reactjs-boilerplate
 
 This is reactjs project boilerplate of BizFE.
 
