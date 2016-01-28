@@ -14,6 +14,7 @@ This is reactjs project boilerplate of BizFE.
 
 **flux:** redux
 
+**lint:** eslint  (support es6 & react code style check, you can run `npm run lint` for lint)
 
 ## How to use 
 
