@@ -13,14 +13,11 @@ let browserHistory = createHashHistory({
 class BBoxRouter extends Component {
 	render(){
 		return (
-				<Router history={browserHistory}>
-					<Route path="/" component={ Activities }>
-					</Route>
-					<Route path="/activities" component={ Activities }>
-					</Route>
-					<Route path="*" component={ Activities }>
-					</Route>
-				</Router>
+			<Router history={browserHistory}>
+				<Route path="/" component={Activities} />
+				<Route path="/activities" component={Activities} />
+				<Route path="*" component={Activities} />
+			</Router>
 			)
 	}
 }
