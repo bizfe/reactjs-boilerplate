@@ -7,7 +7,9 @@ import styles from './page.less';
 
 
 class Page extends Component {
+
 	render() {
+
 		return (
 			<div className={styles.pagestruct}>
 				<Header />
