@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>bbox2.0</title>
+	<title>index2</title>
 	<% if (!this.isDebug) {%>
 		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
 		    'reactproj:styles'
@@ -19,11 +19,11 @@
 		    ], 'js')%>
 
 		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
-		    'reactproj:app.bundle'
+		    'reactproj:app2.bundle'
 		    ], 'js')%>
 	<%} else {%>
 		<!-- 本地使用express提供的js -->
-		<script src="http://0.0.0.0:3000/static/js/app.bundle.js"></script>
+		<script src="http://0.0.0.0:3000/static/js/app2.bundle.js"></script>
 	<%}%>
 	
 </body>

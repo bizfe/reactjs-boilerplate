@@ -5,7 +5,7 @@
   "main": "App.jsx",
   "scripts": {
     "dev": "node devServer.js",
-    "build": "npm run lint cross-env NODE_ENV=production webpack --config webpacks/webpack.config.prod.js",
+    "build": "npm run lint && webpack --config webpacks/webpack.config.prod.js",
     "lint": "eslint --ext=jsx,js app"
   },
   "repository": {

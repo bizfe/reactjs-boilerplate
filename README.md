@@ -34,11 +34,15 @@ http://g.mlsfe.biz/reactjs-boilerplate/example/
 
  open http://xxxxx.com/home
 
+ open http://xxxxx.com/home/index2
+
 ```
 hope you enjoy~ :smile:
 
 #### Production
 ```
+npm run lint (check the code style;you could also skip it)
+
 npm run build (then commit the static folder)
 
 node fedev.js -li reactproj (deploy like other codebases)
@@ -46,7 +50,8 @@ node fedev.js -li reactproj (deploy like other codebases)
 ```
 
 build with(static/): 
-- bundle.js (logic codes)
+- app.bundle.js (logic codes)
+- app2.bundle.js (logic codes)
 - lib.bundle.js (common libs)
 - styles.css (components styles)
 

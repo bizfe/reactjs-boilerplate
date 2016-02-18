@@ -10,6 +10,15 @@ var controlFns = {
         this.listenOver(function(data) {
             mSelf.render('react.html', data);
         });
+    },
+    'index2': function(args) {
+        var php = {};
+        var mSelf = this;
+        this.bindDefault(php);
+        this.bridgeMuch(php);
+        this.listenOver(function(data) {
+            mSelf.render('react2.html', data);
+        });
     }
 };
 

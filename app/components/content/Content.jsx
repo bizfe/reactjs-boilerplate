@@ -6,7 +6,7 @@ class Content extends Component {
 		let data = this.props.info;    	
 		let activities = this.props.activities;    	
 		return(
-			<div key='activityWrapper' className={style.wrapper} >
+			<div key="activityWrapper" className={style.wrapper} >
 				haha.  Im content..(修改我不刷新即可更新哦~) {activities.message}
 			</div>
 			)

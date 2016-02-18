@@ -2,16 +2,21 @@ var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-
 module.exports = {
   devtool: '#source-map',
-  entry: [
-    'webpack-hot-middleware/client?path=http://0.0.0.0:3000/__webpack_hmr',
-    './app/App.jsx'
-  ],
+  entry: {
+    app:[
+      'webpack-hot-middleware/client?path=http://0.0.0.0:3000/__webpack_hmr',
+      './app/App.jsx'
+    ],
+    app2:[
+      'webpack-hot-middleware/client?path=http://0.0.0.0:3000/__webpack_hmr',
+      './app/App2.jsx'
+    ],
+  },
   output: {
     path: path.join(__dirname, '../static/js/app/'),
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     publicPath: 'http://0.0.0.0:3000/static/js/',
     sourceMapFilename: '[file].map?' + new Date().getTime()
   },

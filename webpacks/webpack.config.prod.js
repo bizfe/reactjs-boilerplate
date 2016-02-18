@@ -2,15 +2,18 @@ var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+process.env.NODE_ENV = 'production';
+
 module.exports = {
   devtool: 'source-map',
   entry: {
     app: path.join(__dirname, '../app/App.jsx'),
+    app2: path.join(__dirname, '../app/App2.jsx'),
     lib: ['react', 'react-dom', 'react-redux', 'react-router', 'redux', 'redux-thunk']
   },
   output: {
     path: path.join(__dirname, '../static/'),
-    filename: 'js/bundle.js',
+    filename: 'js/[name].bundle.js',
     sourceMapFilename: '[file].map?' + new Date().getTime()
   },
   plugins: [
