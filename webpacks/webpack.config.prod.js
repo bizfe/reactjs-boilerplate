@@ -24,7 +24,7 @@ module.exports = {
       }
     }),
     new webpack.optimize.CommonsChunkPlugin('lib', 'js/lib.bundle.js'),
-    new ExtractTextPlugin('css/styles.css'),
+    new ExtractTextPlugin('css/[name].styles.css'),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
         warnings: false
