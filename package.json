@@ -4,6 +4,7 @@
   "description": "reactjs & redux & react-router & es6 & hot-loader project boilerplate of bizfe",
   "main": "App.jsx",
   "scripts": {
+    "install": "npm install babel -g && npm install babel-cli -g",
     "dev": "babel-node webpacks/entry.babel.js",
     "build": "npm run lint && NODE_ENV=production babel-node webpacks/entry.babel.js --build",
     "lint": "eslint --ext=jsx,js app"

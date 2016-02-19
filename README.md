@@ -26,7 +26,7 @@ http://g.mlsfe.biz/reactjs-boilerplate/example/
 ```shell
  git clone https://github.com/bizfe/reactjs-boilerplate.git reactproj
 
- cd reactproj && (sudo)npm install 
+ cd reactproj && sudo npm run install && npm install
 
  npm run dev
 
