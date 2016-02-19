@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>bbox2.0</title>
+	<title>jquery</title>
 	<% if (!this.isDebug) {%>
 		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
-		    'reactproj:app.styles'
+		    'reactproj:jquery.styles'
 		    ], 'css')%>
 	<%}%>
 </head>
@@ -19,11 +19,11 @@
 		    ], 'js')%>
 
 		<%=_extFn.importFiles(this.JCSTATIC_BASE,[
-		    'reactproj:app.bundle'
+		    'reactproj:jquery.bundle'
 		    ], 'js')%>
 	<%} else {%>
 		<!-- 本地使用express提供的js -->
-		<script src="http://0.0.0.0:3000/static/js/app.bundle.js"></script>
+		<script src="http://0.0.0.0:3000/static/js/jquery.bundle.js"></script>
 	<%}%>
 	
 </body>

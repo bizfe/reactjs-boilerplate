@@ -22,7 +22,7 @@ http://g.mlsfe.biz/reactjs-boilerplate/example/
 
 ## How to use 
 
-#### Develope
+#### Develop
 ```shell
  git clone https://github.com/bizfe/reactjs-boilerplate.git reactproj
 
@@ -50,10 +50,17 @@ node fedev.js -li reactproj (deploy like other codebases)
 ```
 
 build with(static/): 
-- app.bundle.js (logic codes)
-- app2.bundle.js (logic codes)
+- bbox.bundle.js (bbox logic codes)
+- jquery.bundle.js (jquery logic codes)
 - lib.bundle.js (common libs)
-- styles.css (components styles)
+- bbox.styles.css (bbox components styles)
+- jquery.styles.css (jqeury components styles)
+
+#### Notice
+
+#####1. eslint
+
+pay attention to modify `Tab Size`
 
 ## License
 

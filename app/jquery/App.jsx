@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import configureStore from './stores/configureStore';
 import { Provider } from 'react-redux';
 import JqueryPage from './pages/jquery/Jquery.jsx';
-import Router2 from './routers/router2';
+import Router from './routers/router';
 
 const store = configureStore();
 

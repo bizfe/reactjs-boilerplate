@@ -3,7 +3,6 @@ import { Router, Route, } from 'react-router';
 import { createHashHistory } from 'history';
 import Jquery from '../pages/jquery/Jquery.jsx';
 
-
 // 去除'_k=xxxx'query
 let browserHistory = createHashHistory({
   queryKey: false
