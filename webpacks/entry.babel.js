@@ -77,7 +77,7 @@ let getEntry = (callback) => {
 		files.forEach((file) => {
 
 			//万一有隐藏文件夹呢
-			if (/^\./.test(file)) {
+			if (/^(\.|common)/.test(file)) {
 				return false;
 			}
 
