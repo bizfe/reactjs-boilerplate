@@ -1,3 +1,8 @@
+//react-ie8 hack https://www.npmjs.com/package/react-ie8
+import es5Shim from 'es5-shim';
+import es5Sham from 'es5-shim/es5-sham';
+import consolePolyFill from 'console-polyfill';
+
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import configureStore from './stores/configureStore';

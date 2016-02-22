@@ -22,6 +22,11 @@ http://g.mlsfe.biz/reactjs-boilerplate/example/
 
 ## How to use 
 
+#### env
+
+	* mac
+	* node 5.0
+
 #### Develop
 ```shell
  git clone https://github.com/bizfe/reactjs-boilerplate.git reactproj

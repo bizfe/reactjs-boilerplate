@@ -4,7 +4,7 @@
   "description": "reactjs & redux & react-router & es6 & hot-loader project boilerplate of bizfe",
   "main": "App.jsx",
   "scripts": {
-    "install": "npm install babel -g && npm install babel-cli -g",
+    "install": "npm install babel-cli -g",
     "dev": "babel-node webpacks/entry.babel.js",
     "build": "npm run lint && NODE_ENV=production babel-node webpacks/entry.babel.js --build",
     "lint": "eslint --ext=jsx,js app"
@@ -59,6 +59,10 @@
     "redux": "^3.0.6",
     "redux-logger": "^2.4.0",
     "redux-thunk": "^1.0.3",
+    "core-js": "^2.0.2",
+    "fetch-ie8": "^1.4.0",
+    "es5-shim":"^4.5.2",
+		"console-polyfill":"^0.2.2",
     "jquery": "^1.9.1"
   }
 }
